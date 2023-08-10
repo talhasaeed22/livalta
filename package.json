@@ -1,0 +1,32 @@
+{
+  "name": "livalta",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5002",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "animejs": "^3.2.1",
+    "aos": "^2.3.4",
+    "date-fns": "^2.16.1",
+    "formatted": "^1.0.0",
+    "fs": "0.0.1-security",
+    "globby": "^11.0.1",
+    "gray-matter": "^4.0.2",
+    "next": "12",
+    "path": "^0.12.7",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^18.2.0",
+    "react-cookie-consent": "^6.2.3",
+    "react-dom": "^18.2.0",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "sass": "^1.28.0",
+    "sharp": "^0.31.1",
+    "tailwindcss": "^1.9.6",
+    "video-react": "^0.15.0"
+  }
+}
