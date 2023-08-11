@@ -4,12 +4,12 @@ export default function ProtoCell() {
   // trigger new deployment
   return (
     <>
-      <div className="w-full lg:w-5/6 lg:mr-8 lg:px-0">
+      <div className="w-full lg:w-4/6 lg:mr-8 lg:px-0">
         <div className="w-full bg-purple p-5 lg:pt-6 block lg:flex">
-          <div className="w-1/2 lg:w-64 mx-auto lg:mx-0 pt-2 lg:pt-0">   
-            <img src="/images/protocell.png" alt="hy40"  unsized="true" className="mx-auto lg:hidden" />
+          <div className="w-1/2 lg:w-64 mx-auto lg:mx-0 pt-2 lg:pt-0">
+            <img src="/images/protocell.png" alt="hy40" unsized="true" className="mx-auto lg:hidden" />
             <div className="logo-product h-auto flex items-center">
-              <img src="/images/protocell.png" alt="protocell"  unsized="true" className="mx-auto hidden lg:block" />
+              <img src="/images/protocell.png" alt="protocell" unsized="true" className="mx-auto hidden lg:block" />
             </div>
           </div>
           <div className="w-full block lg:flex justify-end">
@@ -20,11 +20,11 @@ export default function ProtoCell() {
               <div className="w-full flex justify-center lg:justify-end icon-row pb-4 product-center-proto">
                 <div className="relative hy-40-icons">
                   <div className="icon-bg-square purple"></div>
-                  <div className="absolute top-0" style={{'left': '2rem'}}><Image src="/images/icons/aqua.svg" alt="Aqua" width={75} height={75} /></div>
+                  <div className="absolute top-0" style={{ 'left': '2rem' }}><Image src="/images/icons/aqua.svg" alt="Aqua" width={75} height={75} /></div>
                 </div>
                 <div className="relative">
                   <div className="icon-bg-square purple"></div>
-                  <div className="absolute top-0" style={{'left': '2rem'}}><Image src="/images/icons/swine.svg" alt="Swine" width={70} height={70} /></div>
+                  <div className="absolute top-0" style={{ 'left': '2rem' }}><Image src="/images/icons/swine.svg" alt="Swine" width={70} height={70} /></div>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function ProtoCell() {
         </div>
         <div className="flex justify-center lg:justify-end">
           <div className="w-11/12 block lg:flex relative">
-            <div className="hidden lg:block absolute left-0" style={{'top': '-6rem'}}>
+            <div className="hidden lg:block absolute left-0" style={{ 'top': '-6rem' }}>
               <img src="/images/icons/dot.png" alt="Dot" unsized="true"></img>
             </div>
             <div className="mt-20 lg:my-20 mx-4 lg:mx-8 lg:ml-20">
