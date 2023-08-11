@@ -60,28 +60,28 @@ export default function Products() {
         {showProto && (
           <div data-aos='fade-up' className='w-full p-4'>
             <div className='w-full'>
-              <div className='flex justify-center text-white my-6 text-md lg:text-lg cursor-pointer'>
-                <div className='mr-2 lg:mr-8'>
-                  ProtoCell (IDY M30)
+              <div className='grid md:grid-cols-4 grid-cols-2 gap-5 text-white my-6 text-sm lg:text-lg cursor-pointer'>
+                <div className='sm:mr-2 mx-auto lg:mr-8'>
+                  <p className='text-center'> ProtoCell (IDY M30)</p>
                   <div className='bg-purple h-2 w-1/3 mx-auto mt-4'></div>
                 </div>
                 <div
-                  className='ml-2 lg:ml-8 opacity-25 cursor-pointer'
+                  className=' mx-auto sm:ml-2 lg:ml-8 opacity-25 cursor-pointer'
                   onClick={() => toggleProducts('HY40')}
                 >
-                  <p>LivaltaCell HY40</p>
+                  <p className='text-center'>LivaltaCell HY40</p>
                 </div>
                 <div
-                  className='ml-2 lg:ml-8 opacity-25 cursor-pointer'
+                  className='sm:ml-2 mx-auto lg:ml-8 opacity-25 cursor-pointer'
                   onClick={() => toggleProducts('PSY')}
                 >
-                  <p>Livalta™Cell PSY</p>
+                  <p className='text-center'>Livalta™Cell PSY</p>
                 </div>
                 <div
-                  className='ml-2 lg:ml-8 opacity-25 cursor-pointer'
+                  className='sm:ml-2 mx-auto lg:ml-8 opacity-25 cursor-pointer'
                   onClick={() => toggleProducts('P46')}
                 >
-                  <p>Livalta™Sun P46</p>
+                  <p className='text-center'>Livalta™Sun P46</p>
                 </div>
               </div>
             </div>
@@ -172,28 +172,28 @@ export default function Products() {
         {showHY40 && (
           <div data-aos='fade-down' className='w-full p-4'>
             <div className='w-full'>
-              <div className='flex justify-center text-white my-6 text-md lg:text-lg cursor-pointer'>
+              <div className='grid md:grid-cols-4 grid-cols-2 gap-5 text-white my-6 text-md lg:text-lg cursor-pointer'>
                 <div
-                  className='mr-2 lg:mr-8 opacity-25'
+                  className='sm:mr-2 mx-auto lg:mr-8 opacity-25'
                   onClick={() => toggleProducts('proto')}
                 >
-                  ProtoCell (IDY M30)
+                  <p class="text-center">ProtoCell (IDY M30)</p>
                 </div>
-                <div className='ml-2 lg:ml-8 cursor-pointer'>
-                  <p>LivaltaCell HY40</p>
+                <div className='sm:ml-2 mx-auto lg:ml-8 cursor-pointer'>
+                  <p className='text-center'>LivaltaCell HY40</p>
                   <div className='bg-orange h-2 w-1/3 mx-auto mt-4'></div>
                 </div>
                 <div
-                  className='ml-2 lg:ml-8 opacity-25 cursor-pointer'
+                  className='sm:ml-2  mx-auto lg:ml-8 opacity-25 cursor-pointer'
                   onClick={() => toggleProducts('PSY')}
                 >
-                  <p>Livalta™Cell PSY</p>
+                  <p className='text-center'>Livalta™Cell PSY</p>
                 </div>
                 <div
-                  className='ml-2 lg:ml-8 opacity-25 cursor-pointer'
+                  className='sm:ml-2  mx-auto lg:ml-8 opacity-25 cursor-pointer'
                   onClick={() => toggleProducts('P46')}
                 >
-                  <p>Livalta™Sun P46</p>
+                  <p className='text-center'>Livalta™Sun P46</p>
                 </div>
               </div>
             </div>
@@ -281,28 +281,28 @@ export default function Products() {
         {showPSY && (
           <div data-aos='fade-up' className='w-full p-4'>
             <div className='w-full'>
-              <div className='flex justify-center text-white my-6 text-md lg:text-lg cursor-pointer'>
+              <div className='grid md:grid-cols-4 grid-cols-2 gap-5 text-white my-6 text-md lg:text-lg cursor-pointer'>
                 <div
-                  className='mr-2 lg:mr-8 opacity-25'
+                  className='sm:mr-2 mx-auto lg:mr-8 opacity-25'
                   onClick={() => toggleProducts('proto')}
                 >
-                  ProtoCell (IDY M30)
+                  <p class="text-center"> ProtoCell (IDY M30)</p>
                 </div>
                 <div
                   className='ml-2 lg:ml-8 opacity-25 cursor-pointer'
                   onClick={() => toggleProducts('HY40')}
                 >
-                  <p>LivaltaCell HY40</p>
+                  <p className='text-center'>LivaltaCell HY40</p>
                 </div>
-                <div className='ml-2 lg:ml-8  cursor-pointer'>
-                  <p>Livalta™Cell PSY</p>
+                <div className='sm:ml-2 mx-auto lg:ml-8  cursor-pointer'>
+                  <p className='text-center'>Livalta™Cell PSY</p>
                   <div className='bg-orange h-2 w-1/3 mx-auto mt-4'></div>
                 </div>
                 <div
-                  className='ml-2 lg:ml-8 opacity-25 cursor-pointer'
+                  className='sm:ml-2 mx-auto lg:ml-8 opacity-25 cursor-pointer'
                   onClick={() => toggleProducts('P46')}
                 >
-                  <p>Livalta™Sun P46</p>
+                  <p className='text-center'>Livalta™Sun P46</p>
                 </div>
               </div>
             </div>
@@ -390,28 +390,28 @@ export default function Products() {
         {showP46 && (
           <div data-aos='fade-up' className='w-full p-4'>
             <div className='w-full'>
-              <div className='flex justify-center text-white my-6 text-md lg:text-lg cursor-pointer'>
+              <div className='grid md:grid-cols-4 grid-cols-2 gap-5 text-white my-6 text-md lg:text-lg cursor-pointer'>
                 <div
-                  className='mr-2 lg:mr-8 opacity-25'
+                  className='sm:mr-2 mx-auto lg:mr-8 opacity-25'
                   onClick={() => toggleProducts('proto')}
                 >
-                  ProtoCell (IDY M30)
+                  <p class="text-center">ProtoCell (IDY M30)</p>
                 </div>
                 <div
-                  className='ml-2 lg:ml-8 opacity-25 cursor-pointer'
+                  className='sm:ml-2 mx-auto lg:ml-8 opacity-25 cursor-pointer'
                   onClick={() => toggleProducts('HY40')}
                 >
-                  <p>LivaltaCell HY40</p>
+                  <p className='text-center'>LivaltaCell HY40</p>
                 </div>
-                <div onClick={() => toggleProducts('PSY')} className='ml-2 lg:ml-8 opacity-25 cursor-pointer'>
-                  <p>Livalta™Cell PSY</p>
+                <div onClick={() => toggleProducts('PSY')} className='sm:ml-2 mx-auto lg:ml-8 opacity-25 cursor-pointer'>
+                  <p className='text-center'>Livalta™Cell PSY</p>
 
                 </div>
                 <div
                   className='ml-2 lg:ml-8 cursor-pointer'
                   onClick={() => toggleProducts('P46')}
                 >
-                  <p>Livalta™Sun P46</p>
+                  <p className='text-center'>Livalta™Sun P46</p>
                   <div className='bg-yellow h-2 w-1/3 mx-auto mt-4'></div>
                 </div>
               </div>
