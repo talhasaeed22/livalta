@@ -113,11 +113,11 @@ export default function Products() {
               <ProtoCell />
               <div
                 className='hidden lg:block lg:w-1/6 text-center cursor-pointer'
-                onClick={() => toggleProducts('PSY')}
+                onClick={() => toggleProducts('P46')}
               >
-                <div className='bg-orange px-12 py-12'>
+                <div className='bg-yellow px-12 py-12'>
                   <img
-                    src='/images/products/psy-product.svg'
+                    src='/images/p46logo.svg'
                     alt='Livalta Cell PSY'
                     unsized='true'
                   />
@@ -128,7 +128,7 @@ export default function Products() {
                   unsized='true'
                 />
                 <h4 className='outline tiny white text-md py-8 uppercase leading-7'>
-                  INCREASED PALATABILITY & WELLBEING
+                  NUTRITION AND TECHNOLOGICAL PROPERTIES
                 </h4>
                 <p className='text-lg text-blue-100 uppercase  tracking-wider'>
                   For Pets
