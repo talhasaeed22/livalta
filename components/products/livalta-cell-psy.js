@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function LivaltaCellPSY() {
   return (
     <>
-      <div className="w-full lg:w-4/6 lg:mr-8 lg:px-0">
+      <div className="w-full lg:w-4/6 lg:ml-8 lg:px-0">
         <div className="w-full bg-orange p-5 block lg:flex">
           <div className="w-1/2 lg:w-32 mx-auto lg:mx-0 pt-2 lg:pt-0">
             <img

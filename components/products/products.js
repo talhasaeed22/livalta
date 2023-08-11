@@ -198,9 +198,9 @@ export default function Products() {
               </div>
             </div>
             <div className='flex'>
-              <LivaltaCellHY40 />
+
               <div
-                className='hidden lg:block lg:w-1/6 text-center cursor-pointer'
+                className='hidden lg:block lg:w-1/6 text-center mr-8 cursor-pointer'
                 onClick={() => toggleProducts('proto')}
               >
                 <div className='bg-purple px-8 py-12'>
@@ -222,6 +222,7 @@ export default function Products() {
                   For Aqua and Swine
                 </p>
               </div>
+              <LivaltaCellHY40 />
               <div
                 className='hidden lg:block lg:w-1/6 text-center mr-8 cursor-pointer ml-8'
                 onClick={() => toggleProducts('PSY')}
@@ -306,7 +307,7 @@ export default function Products() {
               </div>
             </div>
             <div className='flex'>
-              <LivaltaCellPSY />
+
               <div
                 className='hidden lg:block lg:w-1/6 mr-8 text-center cursor-pointer'
                 onClick={() => toggleProducts('proto')}
@@ -354,8 +355,9 @@ export default function Products() {
                   For Poultry, Swine and Aqua
                 </p>
               </div>
+              <LivaltaCellPSY />
               <div
-                className='hidden lg:block lg:w-1/6 lg:h-[143px] text-center cursor-pointer'
+                className='hidden lg:block lg:w-1/6 lg:h-[143px] text-center ml-8 cursor-pointer'
                 onClick={() => toggleProducts('P46')}
               >
                 <div className='bg-yellow px-12 py-12'>
@@ -416,7 +418,7 @@ export default function Products() {
             </div>
 
             <div className='flex'>
-              <LivaltaSunP46 />
+
               <div
                 className='hidden lg:block lg:w-1/6 mr-8 text-center cursor-pointer'
                 onClick={() => toggleProducts('proto')}
@@ -465,7 +467,7 @@ export default function Products() {
                 </p>
               </div>
               <div
-                className='hidden lg:block lg:w-1/6 text-center cursor-pointer'
+                className='hidden lg:block lg:w-1/6 mr-8 text-center cursor-pointer'
                 onClick={() => toggleProducts('PSY')}
               >
                 <div className='bg-orange px-12 py-12'>
@@ -487,6 +489,7 @@ export default function Products() {
                   For Pets
                 </p>
               </div>
+              <LivaltaSunP46 />
             </div>
           </div>
         )}
